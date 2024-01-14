@@ -2,7 +2,7 @@
 
 # Install zsh
 sudo apt update
-sudo apt install zsh -y
+sudo apt install git zsh -y
 chsh -s $(which zsh)
 echo "Log out and log back in to use ZSH as the default shell."
 
