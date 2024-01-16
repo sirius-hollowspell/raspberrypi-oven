@@ -1,6 +1,6 @@
 # raspberrypi-oven
 Scripts to setup my Raspberry Pis
 
-To run a script, type `curl [url of the raw script] | bash`
+To run a script, use `curl scripts.wvfans.org/[name of the script] | bash`.
 
-To run `mastersetup.sh`, type `curl https://raw.githubusercontent.com/sirius-hollowspell/raspberrypi-oven/main/mastersetup.sh | bash` into a terminal.
+To run `mastersetup.sh`, use `curl scripts.wvfans.org/mastersetup.sh | bash`.
