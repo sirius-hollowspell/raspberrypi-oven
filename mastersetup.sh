@@ -1,6 +1,6 @@
 #! /bin/bash
 
-curl https://raw.githubusercontent.com/sirius-hollowspell/raspberrypi-oven/main/casaossetup.sh | bash
-curl https://raw.githubusercontent.com/sirius-hollowspell/raspberrypi-oven/main/dockersetup.sh | bash
-curl https://raw.githubusercontent.com/sirius-hollowspell/raspberrypi-oven/main/webminsetup.sh | bash
-curl https://raw.githubusercontent.com/sirius-hollowspell/raspberrypi-oven/main/zshsetup.sh | bash
+curl http://scripts.wvfans.org/casaossetup.sh | bash
+curl http://scripts.wvfans.org/dockersetup.sh | bash
+curl http://scripts.wvfans.org/webminsetup.sh | bash
+curl http://scripts.wvfans.org/zshsetup.sh | bash
