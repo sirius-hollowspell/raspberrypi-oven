@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 curl http://scripts.wvfans.org/casaossetup.sh | bash
 curl http://scripts.wvfans.org/dockersetup.sh | bash
