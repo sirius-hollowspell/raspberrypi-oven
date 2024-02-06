@@ -33,4 +33,4 @@ sudo apt install ufw -y
 sudo ufw allow 9443
 
 # Instructions to get to the Portainer dashboard
-echo "Enter http://[ip of this machine]:9443 to access the Portainer dashboard."
+echo "Enter https://[ip of this machine]:9443 to access the Portainer dashboard."
