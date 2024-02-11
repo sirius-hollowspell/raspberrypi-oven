@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl http://scripts.wvfans.org/casaossetup.sh | bash
-curl http://scripts.wvfans.org/dockersetup.sh | bash
-curl http://scripts.wvfans.org/webminsetup.sh | bash
-curl http://scripts.wvfans.org/zshsetup.sh | bash
+curl http://serverinascript.com/casaossetup.sh | bash
+curl http://serverinascript.com/dockersetup.sh | bash
+curl http://serverinascript.com/webminsetup.sh | bash
+curl http://serverinascript.com/zshsetup.sh | bash
