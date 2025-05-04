@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Install Webmin
-curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
-sudo sh ./setup-repos.sh
-sudo apt-get install webmin --install-recommends -y
+curl -o webmin-setup-repo.sh https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh
+sudo sh webmin-setup-repo.sh
+sudo apt-get install webmin --install-recommends
 
 # Install ufw and open port 10000
 sudo apt update
