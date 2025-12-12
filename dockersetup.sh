@@ -25,12 +25,14 @@ sudo systemctl enable docker.service && sudo systemctl enable containerd.service
 
 # Install Portainer
 docker volume create portainer_data
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+docker run -d -p 8000:8000 -p 9443:9443 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:lts
 
 # Install ufw and open port 9443
 sudo apt update
 sudo apt install ufw -y
 sudo ufw allow 9443
+sudo ufw allow 9000
 
 # Instructions to get to the Portainer dashboard
-echo "Enter https://[ip of this machine]:9443 to access the Portainer dashboard."
+echo "Enter http://[ip of this machine]:9000 to access the HTTP Portainer dashboard."
+echo "Enter https://[ip of this machine]:9443 to access the HTTPS Portainer dashboard."
